@@ -1,9 +1,9 @@
-# rust-the-right-way
+# Rust The Right Way
 A step-by-step guide to learning to be a proper, idiomatic Rust programmer
 Inspired by https://twitter.com/AndreaPessino/status/1042120425415700480
 
 ## Goals
-urrently, the repo is a simple unrolling of Andrea's original tweet thread for posterity. The eventual goal is to provide a living document which is single set of instructions that any developer can follow to learn Rust in as efficient and idiomatic of a way as possible at that point in time. It will ideally be:
+Currently, the repo is a simple unrolling of Andrea's original tweet thread for posterity. The eventual goal is to provide a living document which is single set of instructions that any developer can follow to learn Rust in as efficient and idiomatic of a way as possible at that point in time. It will ideally be:
 
 * Efficient: a single path only with as few branches or optional routes as possible.
 * Parsimonious: composed of only the best sources and exercises, in the best order, to provide the optimal path to learning based off of prior principles
