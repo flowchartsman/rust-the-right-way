@@ -3,12 +3,37 @@ A step-by-step guide to learning to be a proper, idiomatic Rust programmer
 Inspired by https://twitter.com/AndreaPessino/status/1042120425415700480
 
 ## Goals
-Currently, the repo is a simple unrolling of Andrea's original tweet thread for posterity. The eventual goal is to provide a living document which is single set of instructions that any developer can follow to learn Rust in as efficient and idiomatic of a way as possible at that point in time. It will ideally be:
+Currently, the repo is a summary and unrolling of Andrea's original tweet thread for posterity. The eventual goal is to provide a living document which is single set of instructions that any developer can follow to learn Rust in as efficient and idiomatic of a way as possible at that point in time. It will ideally be:
 
 * Efficient: a single path only with as few branches or optional routes as possible.
 * Parsimonious: composed of only the best sources and exercises, in the best order, to provide the optimal path to learning based off of prior principles
 * Accessible: favoring free sources whenever possible
 * Democratic: community driven with issues being created on a point-by-point basis with discussion and voting on changes
+
+## Process
+### Guidelines
+* Follow the steps and don't deviate or spin off until you're complete.
+* Study all code examples, even if they seem trivial.
+* Avoid IDEs and other integrations for the duration of the process. Build and learn on the commandline.
+* Compile, run, and peform modifications to each code example.
+* Type every exercise in by hand, as if you were writing it yourself.
+* Avoid binding or integrating with any non-rust code. Do everything from scratch and limit yourself to the Rust ecosystem.
+* Use the Rust toolset as much as possible (i.e. `rustfmt` and `clippy`)
+* Treat it as an entirely new language, different from any you have prior experience with.
+   * Start or go back to thinking in terms of data layout and interface design, instead of reducing problems to fixed patterns. 
+   * For example, Rust is not designed to use object-oriented idioms, don't force them on it.
+* *Give It Time*. It's worth it.
+
+### Steps
+1. Read **all** of [The official, living docs](https://doc.rust-lang.org/book/2018-edition/index.html)
+1. Read **all** of [Rust By Example](https://doc.rust-lang.org/rust-by-example/)
+1. Buy [Programming Rust: Fast, Safe Systems Development](https://www.amazon.com/Programming-Rust-Fast-Systems-Development-ebook/dp/B077NSY211)
+   1. Review the first 6-8 chapters.
+   1. Read the rest of the text, concurrently with the next steps.
+1. Pick a basic starting point and begin writing your own code.
+   1. Recommendation: `piston_window` crate -- set up window, draw, receive events, etc.
+   1. Also consider: [Piston Examples](https://github.com/PistonDevelopers/piston-examples)
+1. Learn the Rust stdlib as thoroughly as possible
 
 ## Unrolled thread
 A THREAD ABOUT LEARNING THE RUST PROGRAMMING LANGUAGE @rustlang
